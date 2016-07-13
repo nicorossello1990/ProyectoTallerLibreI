@@ -1,0 +1,254 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#principal {
+    	height: 1018px;
+	width: 1330px;
+	margin: auto;
+
+	BORDER-RIGHT: 1px solid #aaaaaa;
+	BORDER-LEFT: 1px solid #aaaaaa;
+	BORDER-BOTTOM: 1px solid #aaaaaa;
+	BACKGROUND-COLOR: #EBEBEB;
+	color: inherit;
+	border-radius: 10px;
+	border-color: #006600;
+	border-width: 4px;
+	border-style: solid;
+	font-size: 14px;
+	overflow: auto;
+	alignment-adjust:central;
+}
+
+#contenedor{
+
+        margin: auto;
+	font-size: 14px;
+	overflow: auto;
+	alignment-adjust:central;
+}
+
+#Titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #F00;
+}
+
+#Titulo2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #F03;
+	background-color: #CCC;
+	text-align:center	
+}
+
+img {
+ 
+    width:200px;
+    height: 200px;
+    border: 2px solid #73AD21;
+    border-radius: 8px;
+}
+
+#capital {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:860px;;
+    width:200px;
+    float:left;
+    padding:5px; 
+	overflow: auto;
+}
+
+#fotos {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:860px;
+    width:860px;
+    float:left;
+    padding:5px; 
+	overflow: auto;
+}
+
+#relacionadas {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:860px;
+    width:200px;
+    float:left;
+    padding:5px; 
+	overflow: auto;
+}
+
+body {
+	background:#f2f2f2;
+}
+
+.slides {
+	width:100%;
+         
+}
+
+.slides img {
+	width:100%;
+}
+
+
+
+.imagen img{
+	 width:855px;
+    height: 640px;
+    border: 2px solid #73AD21;
+    border-radius: 8px;
+}
+
+.iconos img{
+    text-align: right;
+	 width:32px;
+    height: 32px;
+    border: none;
+    border-radius: 0px;
+}
+
+.slidesjs-pagination {
+	background:#424242;
+	list-style:none;
+	overflow:hidden;
+}
+
+.slidesjs-pagination li {
+	float:left;
+}
+
+.slidesjs-pagination li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.slidesjs-pagination li a:hover {
+	background:#000;
+}
+
+.slides .active {
+	background:#000;
+}
+
+.slidesjs-navigation{
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	padding:11px 20px;
+	float:right;
+}
+
+        
+        /* jssor slider arrow navigator skin 05 css */
+        /*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        */
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('Fotos/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+        /* jssor slider thumbnail navigator skin 01 css */
+        /*
+        .jssort01 .p            (normal)
+        .jssort01 .p:hover      (normal mouseover)
+        .jssort01 .p.pav        (active)
+        .jssort01 .p.pdn        (mousedown)
+        */
+        .jssort01 .p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 72px;
+            height: 72px;
+        }
+        
+        .jssort01 .t {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .jssort01 .w {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .jssort01 .c {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 68px;
+            height: 68px;
+            border: #000 2px solid;
+            box-sizing: content-box;
+            background: url('Fotos/t01.png') -800px -800px no-repeat;
+            _background: none;
+        }
+        
+        .jssort01 .pav .c {
+            top: 2px;
+            _top: 0px;
+            left: 2px;
+            _left: 0px;
+            width: 68px;
+            height: 68px;
+            border: #000 0px solid;
+            _border: #fff 2px solid;
+            background-position: 50% 50%;
+        }
+        
+        .jssort01 .p:hover .c {
+            top: 0px;
+            left: 0px;
+            width: 70px;
+            height: 70px;
+            border: #fff 1px solid;
+            background-position: 50% 50%;
+        }
+        
+        .jssort01 .p.pdn .c {
+            background-position: 50% 50%;
+            width: 68px;
+            height: 68px;
+            border: #000 2px solid;
+        }
+        
+        * html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {
+            /* ie quirks mode adjust */
+            width /**/: 72px;
+            height /**/: 72px;
+        }

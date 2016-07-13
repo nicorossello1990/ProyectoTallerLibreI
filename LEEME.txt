@@ -1,0 +1,5 @@
+01-ExtraccionFotos = Extraccion de las 5000 imagenes de Flickr. 
+02.AnalisisEIndexacion = Análisis de los problemas de etiquetas e indexado de las etiquetas limpias.
+03.RecuperacionImagenesyEtiquetas = Algoritmo de recuperacion de imagenes y recuperacion de etiquetas relacionadas y evaluacion
+04.Evaluacion = Evaluacion de los sistemas SBEL y SBEO
+05.SistemaNavegacion = Sistema de Navegacion de Imagenes Web
